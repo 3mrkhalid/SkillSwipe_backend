@@ -1,37 +1,27 @@
-const User = require("../models/user");
+import User from '../models/user.js';
 
-const me = async (req, res) => {
+export const me = async (req, res, next) => {
   try {
-    if (!req.user?.id) {
-      return res.status(401).json({ message: "Unauthorized" });
-    }
-
-    const currentUser = await User.findById(req.user.id).select("-password");
+  
+    const currentUser = req.user;
 
     if (!currentUser) {
-      return res.status(404).json({ message: "User not found" });
+      return next(new Error("User not authenticated"));
     }
 
-    res.status(200).json({ user: currentUser });
+    res.status(200).json({ id: currentUser._id, username : currentUser.username, email: currentUser.email , isAdmin: currentUser.isAdmin, createdAt: currentUser.createdAt });
   } catch (err) {
     console.error(err);
-    res.status(500).json({ message: "Server error" });
+    next(err);
   }
 };
 
-const getAllUsers = async (req, res)=> {
-    const users = await user.find().select("-password").lean();
+export const getAllUsers = async (req, res)=> {
+    const users = await User.find().select("-password").lean();
 
     if(!users.length) {
-        return res.status(400).json({message: "No users found"})
+        return next(new Error("No users found"));
     }
 
     res.json(users)
-}
-
-module.exports = 
-{
-    getAllUsers,
-    me,
-    
 }
