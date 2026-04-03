@@ -76,13 +76,13 @@ cd Backend-node
 npm install
 
 if(Run in development)
-{
-  npm run dev
-}
-else if(Run in production)
-{
-  npm run prod
-}
+<p>{</p>
+<p>  npm run dev</p>
+<p>}</p>
+<p>else if(Run in production)</p>
+<p>{</p>
+<p> npm run prod</p>
+<p>}</p>
 
 ### Environment Variables for Node.js
 PORT=<your-port>
