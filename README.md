@@ -109,6 +109,11 @@ SkillSwipe-Backend/
    - **POST /forgetPassword**
    - **POST /resetPassword**
    - **POST /refresh**
+### Posts:
+  - **GET /posts**
+  - **POST /posts**
+  - **DELETE /posts/:id**
+
 
 # Database Schema
 <img width="900" height="807" alt="image" src="https://github.com/user-attachments/assets/d64169cf-528c-436b-91ac-e9246d2c1704" />
