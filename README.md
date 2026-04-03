@@ -63,7 +63,7 @@ SkillSwipe-Backend/
 
 #### Clone the repository
 git clone https://github.com/3mrkhalid/SkillSwipe-Backend.git
-cd SkillSwipe-Backend
+<p>cd SkillSwipe-Backend</p>
 
 
 ## run Backend-Go
