@@ -88,15 +88,15 @@ SkillSwipe-Backend/
   npm run prod  
 
 ### Environment Variables for Node.js
-<p>PORT=<your-port></p>
+<p>PORT=your-port</p>
 <p>NODE_ENV="development"</p>
-<p>MONGO_URI=<your-mongo-uri></p>
-<p>JWT_ACCESS_SECRET=<jwt-access-secret></p>
-<p>JWT_REFRESH_SECRET=<jwt-refresh-secret></p>
-<p>EMAIL_USER=<your-email></p>
-<p>EMAIL_PASS=<your-email-password></p>
+<p>MONGO_URI=your-mongo-uri</p>
+<p>JWT_ACCESS_SECRET=jwt-access-secret</p>
+<p>JWT_REFRESH_SECRET=jwt-refresh-secret</p>
+<p>EMAIL_USER=your-email</p>
+<p>EMAIL_PASS=your-email-password</p>
 
 ### Environment Variables for GO
-<p>PORT=<your-port></p>
-<p>MONGO_URI=<your-mongo-uri></p>
-<p>JWT_ACCESS_SECRET=<jwt-access-secret></p>
+<p>PORT=your-port</p>
+<p>MONGO_URI=your-mongo-uri</p>
+<p>JWT_ACCESS_SECRET=jwt-access-secret</p>
