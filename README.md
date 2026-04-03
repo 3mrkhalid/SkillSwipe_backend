@@ -113,6 +113,11 @@ SkillSwipe-Backend/
   - **GET /posts**
   - **POST /posts**
   - **DELETE /posts/:id**
+### rooms: 
+  - **GET /rooms**
+  - **POST /rooms**
+  - **GET /rooms/:id/messages**
+  - **POST /rooms/:id/messages**
 
 
 # Database Schema
