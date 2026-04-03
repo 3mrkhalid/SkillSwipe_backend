@@ -101,10 +101,6 @@ SkillSwipe-Backend/
   <p>MONGO_URI=your-mongo-uri</p>
   <p>JWT_ACCESS_SECRET=jwt-access-secret</p>
 
-# Database Schema
-<img width="1280" height="807" alt="image" src="https://github.com/user-attachments/assets/d64169cf-528c-436b-91ac-e9246d2c1704" />
-<img width="1280" height="724" alt="image" src="https://github.com/user-attachments/assets/cb017558-2f5c-4d18-9af8-8d4bec8b5f15" />
-
 # API Endpoints
  ### Auth:
    - **POST /login**
@@ -113,5 +109,10 @@ SkillSwipe-Backend/
    - **POST /forgetPassword**
    - **POST /resetPassword**
    - **POST /refresh**
+
+# Database Schema
+<img width="700" height="807" alt="image" src="https://github.com/user-attachments/assets/d64169cf-528c-436b-91ac-e9246d2c1704" />
+<img width="700" height="724" alt="image" src="https://github.com/user-attachments/assets/cb017558-2f5c-4d18-9af8-8d4bec8b5f15" />
+
 
      
