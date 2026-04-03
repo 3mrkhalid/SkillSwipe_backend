@@ -9,24 +9,24 @@ This repository contains the **backend for SkillSwipe** project, implemented in 
 
 ## Project Structure
 
+Backend-go
 ├─ main.go
 ├─ go.mod
 ├─ go.sum
-├─ config/ # DB connection & configuration
-├─ routes/ # API routes
-├─ Middleware/ # JWT verification, etc.
-└─ utils/ # Error handling & logger
+├─ config/           # DB connection & configuration
+├─ routes/           # API routes
+├─ Middleware/       # JWT verification, etc.
+└─ utils/            # Error handling & logger
 
-/Backend-node
+Backend-node
 ├─ server.js
 ├─ package.json
 ├─ package-lock.json
-├─ config/ # DB connection, CORS, allowed origins
-├─ routes/ # API routes
-├─ controllers/ # Route controllers
-├─ Middleware/ # JWT verification, rate limiting
-└─ utils/ # AppError, JWT helpers, sendMail
-
+├─ config/           # DB connection, CORS, allowed origins
+├─ routes/           # API routes
+├─ controllers/      # Route controllers
+├─ Middleware/       # JWT verification, rate limiting
+└─ utils/            # AppError, JWT helpers, sendMail
 
 ---
 
