@@ -75,27 +75,26 @@ go run main.go
 cd Backend-node
 npm install
 
-if(Run in development)
-<p>{</p>
-<p>  npm run dev</p>
-<p>}</p>
-<p>else if(Run in production)</p>
-<p>{</p>
-<p> npm run prod</p>
-<p>}</p>
+### Run the Application
+
+- **Development:**
+  ```bash
+  npm run dev
+
+- **production:**
+  ```bash
+  npm run prod  
 
 ### Environment Variables for Node.js
--PORT=<your-port>
--NODE_ENV="development"
--MONGO_URI=<your-mongo-uri>
--JWT_ACCESS_SECRET=<jwt-access-secret>
--JWT_REFRESH_SECRET=<jwt-refresh-secret>
--EMAIL_USER=<your-email>
--EMAIL_PASS=<your-email-password>
+<p>PORT=<your-port></p>
+<p>NODE_ENV="development"</p>
+<p>MONGO_URI=<your-mongo-uri></p>
+<p>JWT_ACCESS_SECRET=<jwt-access-secret></p>
+<p>JWT_REFRESH_SECRET=<jwt-refresh-secret></p>
+<p>EMAIL_USER=<your-email></p>
+<p>EMAIL_PASS=<your-email-password></p>
 
 ### Environment Variables for GO
-PORT=<your-port>
-MONGO_URI=<your-mongo-uri>
-JWT_ACCESS_SECRET=<jwt-access-secret>
-
-
+<p>PORT=<your-port></p>
+<p>MONGO_URI=<your-mongo-uri></p>
+<p>JWT_ACCESS_SECRET=<jwt-access-secret></p>
