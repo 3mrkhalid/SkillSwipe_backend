@@ -62,18 +62,20 @@ SkillSwipe-Backend/
 ### 🔧 Installation
 
 #### Clone the repository
-git clone https://github.com/3mrkhalid/SkillSwipe-Backend.git
-<p>cd SkillSwipe-Backend</p>
+- ```bash
+  git clone https://github.com/3mrkhalid/SkillSwipe-Backend.git
+  cd SkillSwipe-Backend
 
-
-## run Backend-Go
-cd Backend-go
-go mod tidy
-go run main.go
+## run Backend-G
+- ```bash
+  cd Backend-go
+  go mod tidy
+  go run main.go
 
 ## run Backend-node
-cd Backend-node
-npm install
+- ```bash
+  cd Backend-node
+  npm install
 
 ### Run the Application
 
