@@ -17,8 +17,8 @@
 
 SkillSwipe Backend provides a robust, scalable API service implemented in **two modern technologies**:
 
-- 🚀 **Go Backend** - High-performance, concurrent-ready implementation
-- 💚 **Node.js Backend** - Event-driven, rapid-development implementation
+- **Go Backend** - High-performance, concurrent-ready implementation
+-**Node.js Backend** - Event-driven, rapid-development implementation
 
 Both implementations offer identical functionality with technology-specific optimizations.
 
@@ -46,3 +46,52 @@ SkillSwipe-Backend/
 <p>├── controllers/ # Request handlers & business logic</p>
 <p>├── Middleware/ # JWT verification & rate limiting</p>
 <p>└── utils/ # AppError, JWT helpers & email service</p>
+
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **Go Backend**: Go 1.21 or higher
+- **Node.js Backend**: Node.js 18.x or higher
+- **MongoDB**: 6.0 or higher
+- **npm** or **yarn** (for Node.js backend)
+
+### 🔧 Installation
+
+#### Clone the repository
+git clone https://github.com/3mrkhalid/SkillSwipe-Backend.git
+cd SkillSwipe-Backend
+
+### run Project
+
+##run in Go
+cd Backend-go
+go mod tidy
+go run main.go
+
+## run in node.js
+cd Backend-node
+npm install
+# Run in development
+npm run dev
+# Or production
+npm run prod
+
+### Environment Variables for Node.js
+PORT=<your-port>
+NODE_ENV="development"
+MONGO_URI=<your-mongo-uri>
+JWT_ACCESS_SECRET=<jwt-access-secret>
+JWT_REFRESH_SECRET=<jwt-refresh-secret>
+EMAIL_USER=<your-email>
+EMAIL_PASS=<your-email-password>
+
+### Environment Variables for GO
+PORT=<your-port>
+MONGO_URI=<your-mongo-uri>
+JWT_ACCESS_SECRET=<jwt-access-secret>
+
+
