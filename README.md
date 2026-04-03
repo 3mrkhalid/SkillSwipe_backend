@@ -85,13 +85,13 @@ if(Run in development)
 <p>}</p>
 
 ### Environment Variables for Node.js
-PORT=<your-port>
-NODE_ENV="development"
-MONGO_URI=<your-mongo-uri>
-JWT_ACCESS_SECRET=<jwt-access-secret>
-JWT_REFRESH_SECRET=<jwt-refresh-secret>
-EMAIL_USER=<your-email>
-EMAIL_PASS=<your-email-password>
+-PORT=<your-port>
+-NODE_ENV="development"
+-MONGO_URI=<your-mongo-uri>
+-JWT_ACCESS_SECRET=<jwt-access-secret>
+-JWT_REFRESH_SECRET=<jwt-refresh-secret>
+-EMAIL_USER=<your-email>
+-EMAIL_PASS=<your-email-password>
 
 ### Environment Variables for GO
 PORT=<your-port>
