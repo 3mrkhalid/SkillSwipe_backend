@@ -27,22 +27,22 @@ Both implementations offer identical functionality with technology-specific opti
 ##  Project Structure
 
 SkillSwipe-Backend/
-│
+<p>│</p>
 <p>├── Backend-go/</p>
 <p>│ ├── main.go # Application entry point</p>
-│ ├── go.mod # Go module dependencies
-│ ├── go.sum # Dependency checksums
-│ ├── config/ # Database & configuration management
-│ ├── routes/ # API route definitions
-│ ├── Middleware/ # JWT authentication & request filters
-│ └── utils/ # Error handling & logging utilities
-│
-└── Backend-node/
-├── server.js # Application entry point
-├── package.json # NPM dependencies
-├── package-lock.json # Dependency lock file
-├── config/ # DB connection & CORS configuration
-├── routes/ # API route definitions
-├── controllers/ # Request handlers & business logic
-├── Middleware/ # JWT verification & rate limiting
-└── utils/ # AppError, JWT helpers & email service
+<p>│ ├── go.mod # Go module dependencies</p>
+<p>│ ├── go.sum # Dependency checksums</p>
+<p>│ ├── config/ # Database & configuration management</p>
+<p>│ ├── routes/ # API route definitions</p>
+<p>│ ├── Middleware/ # JWT authentication & request filters</p>
+<p>│ └── utils/ # Error handling & logging utilities</p>
+<p>│</p>
+<p>└── Backend-node/</p>
+<p>├── server.js # Application entry point</p>
+<p>├── package.json # NPM dependencies</p>
+<p>├── package-lock.json # Dependency lock file</p>
+<p>├── config/ # DB connection & CORS configuration</p>
+<p>├── routes/ # API route definitions</p>
+<p>├── controllers/ # Request handlers & business logic</p>
+<p>├── Middleware/ # JWT verification & rate limiting</p>
+<p>└── utils/ # AppError, JWT helpers & email service</p>
