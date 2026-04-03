@@ -65,14 +65,13 @@ SkillSwipe-Backend/
 git clone https://github.com/3mrkhalid/SkillSwipe-Backend.git
 cd SkillSwipe-Backend
 
-### run Project
 
-##run in Go
+###run Backend-Go
 cd Backend-go
 go mod tidy
 go run main.go
 
-## run in node.js
+## run Backend-node
 cd Backend-node
 npm install
 # Run in development
