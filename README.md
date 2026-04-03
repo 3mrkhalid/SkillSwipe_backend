@@ -1,104 +1,27 @@
 # SkillSwipe Backend
 
-This repository contains the **backend for SkillSwipe** project, implemented in **two technologies**:
+<div align="center">
 
-- **Go Backend** (`/Backend-go`)  
-- **Node.js Backend** (`/Backend-node`)
+[![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=for-the-badge&logo=go)](https://golang.org)
+[![Node.js Version](https://img.shields.io/badge/Node.js-18.x-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 
----
+**A dual-technology backend system for the SkillSwipe platform**
 
-## Project Structure
-
-Backend-go
-├─ main.go
-├─ go.mod
-├─ go.sum
-├─ config/           # DB connection & configuration
-├─ routes/           # API routes
-├─ Middleware/       # JWT verification, etc.
-└─ utils/            # Error handling & logger
-
-Backend-node
-├─ server.js
-├─ package.json
-├─ package-lock.json
-├─ config/           # DB connection, CORS, allowed origins
-├─ routes/           # API routes
-├─ controllers/      # Route controllers
-├─ Middleware/       # JWT verification, rate limiting
-└─ utils/            # AppError, JWT helpers, sendMail
+</div>
 
 ---
 
-## Technologies Used
+## 📋 Overview
 
-### Go Backend:
-- Go 1.20+
-- MongoDB
-- Gorilla Mux / Native Router
-- JWT Authentication
-- Custom Middleware
+SkillSwipe Backend provides a robust, scalable API service implemented in **two modern technologies**:
 
-### Node.js Backend:
-- Node.js 18+
-- Express.js
-- MongoDB
-- JWT Authentication
-- Rate Limiting Middleware
-- Nodemailer (Email notifications)
+- 🚀 **Go Backend** - High-performance, concurrent-ready implementation
+- 💚 **Node.js Backend** - Event-driven, rapid-development implementation
+
+Both implementations offer identical functionality with technology-specific optimizations.
 
 ---
 
-## Admin Capabilities
-
-The system has a **User role: `admin`** with full control over the platform:
-
-- Manage Users (ban/unban)
-- Delete or Update any Post
-- Delete or Update any Comment
-- Manage Rooms (create, update, delete)
-- View all Messages
-- Send Notifications
-
----
-
-## Getting Started
-
-### Prerequisites
-- MongoDB running locally or on Atlas
-- Node.js 18+ installed
-- Go 1.20+ installed
-
-### Node.js Backend 
-1-cd Backend-node
-2-npm install
-3- if you run in development make (npm run dev) else npm run prod
-
-### GO Backend
-1-cd Backend-go
-2-go mod tidy
-3-go run main.go
-
-### .env in Node.js
-PORT=<your-port>
-NODE_ENV="development"
-MONGO_URI= <your-mongo-uri>
-JWT_ACCESS_SECRET=<jwt-access-secret>
-JWT_REFRESH_SECRET=<jwt-refresh-secret>
-EMAIL_USER=<your-email>
-EMAIL_PASS=<your-email-password>
-
-### .env in GO
-PORT=<your-port>
-MONGO_URI=<your-mongo-uri>
-JWT_ACCESS_SECRET=<jwt-access-secret>
-
-
-## Database Schema
- for user
-<img width="1280" height="807" alt="image" src="https://github.com/user-attachments/assets/b927ee8b-f81b-42a1-8222-2ce34ae4076a" />
-
-for Admin
-<img width="1280" height="724" alt="image" src="https://github.com/user-attachments/assets/2ef2c3f1-4b69-4e44-9a53-f9c20c568848" />
-
-
+##  Project Structure
