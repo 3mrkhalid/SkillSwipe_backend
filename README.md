@@ -28,8 +28,8 @@ Both implementations offer identical functionality with technology-specific opti
 
 SkillSwipe-Backend/
 │
-├── Backend-go/
-│ ├── main.go # Application entry point
+<p>├── Backend-go/</p>
+<p>│ ├── main.go # Application entry point</p>
 │ ├── go.mod # Go module dependencies
 │ ├── go.sum # Dependency checksums
 │ ├── config/ # Database & configuration management
