@@ -66,7 +66,7 @@ git clone https://github.com/3mrkhalid/SkillSwipe-Backend.git
 cd SkillSwipe-Backend
 
 
-###run Backend-Go
+## run Backend-Go
 cd Backend-go
 go mod tidy
 go run main.go
@@ -74,9 +74,9 @@ go run main.go
 ## run Backend-node
 cd Backend-node
 npm install
-# Run in development
+## Run in development
 npm run dev
-# Or production
+## Or production
 npm run prod
 
 ### Environment Variables for Node.js
