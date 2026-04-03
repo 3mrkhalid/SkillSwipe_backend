@@ -13,7 +13,7 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 SkillSwipe Backend provides a robust, scalable API service implemented in **two modern technologies**:
 
@@ -25,3 +25,24 @@ Both implementations offer identical functionality with technology-specific opti
 ---
 
 ##  Project Structure
+
+SkillSwipe-Backend/
+│
+├── Backend-go/
+│ ├── main.go # Application entry point
+│ ├── go.mod # Go module dependencies
+│ ├── go.sum # Dependency checksums
+│ ├── config/ # Database & configuration management
+│ ├── routes/ # API route definitions
+│ ├── Middleware/ # JWT authentication & request filters
+│ └── utils/ # Error handling & logging utilities
+│
+└── Backend-node/
+├── server.js # Application entry point
+├── package.json # NPM dependencies
+├── package-lock.json # Dependency lock file
+├── config/ # DB connection & CORS configuration
+├── routes/ # API route definitions
+├── controllers/ # Request handlers & business logic
+├── Middleware/ # JWT verification & rate limiting
+└── utils/ # AppError, JWT helpers & email service
