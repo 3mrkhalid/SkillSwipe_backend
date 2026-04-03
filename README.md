@@ -74,10 +74,15 @@ go run main.go
 ## run Backend-node
 cd Backend-node
 npm install
-## Run in development
-npm run dev
-## Or production
-npm run prod
+
+if(Run in development)
+{
+  npm run dev
+}
+else if(Run in production)
+{
+  npm run prod
+}
 
 ### Environment Variables for Node.js
 PORT=<your-port>
