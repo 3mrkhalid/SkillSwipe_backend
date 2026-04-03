@@ -13,7 +13,7 @@
 
 ---
 
-## Overview
+# Overview
 
 SkillSwipe Backend provides a robust, scalable API service implemented in **two modern technologies**:
 
@@ -24,7 +24,7 @@ Both implementations offer identical functionality with technology-specific opti
 
 ---
 
-##  Project Structure
+#  Project Structure
 
 SkillSwipe-Backend/
 <p>│</p>
@@ -50,7 +50,7 @@ SkillSwipe-Backend/
 
 ---
 
-## Getting Started
+# Getting Started
 
 ### Prerequisites
 
@@ -87,7 +87,7 @@ SkillSwipe-Backend/
   ```bash
   npm run prod  
 
-### Environment Variables for Node.js
+# Environment Variables for Node.js
   <p>PORT=your-port</p>
   <p>NODE_ENV="development"</p>
   <p>MONGO_URI=your-mongo-uri</p>
@@ -96,7 +96,7 @@ SkillSwipe-Backend/
   <p>EMAIL_USER=your-email</p>
   <p>EMAIL_PASS=your-email-password</p>
   
-  ### Environment Variables for GO
+# Environment Variables for GO
   <p>PORT=your-port</p>
   <p>MONGO_URI=your-mongo-uri</p>
   <p>JWT_ACCESS_SECRET=jwt-access-secret</p>
@@ -104,3 +104,14 @@ SkillSwipe-Backend/
 # Database Schema
 <img width="1280" height="807" alt="image" src="https://github.com/user-attachments/assets/d64169cf-528c-436b-91ac-e9246d2c1704" />
 <img width="1280" height="724" alt="image" src="https://github.com/user-attachments/assets/cb017558-2f5c-4d18-9af8-8d4bec8b5f15" />
+
+# API Endpoints
+ ### Auth:
+   - **POST /login**
+   - **POST /register**
+   - **POST /logout**
+   - **POST /forgetPassword**
+   - **POST /resetPassword**
+   - **POST /refresh**
+
+     
