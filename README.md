@@ -111,8 +111,8 @@ SkillSwipe-Backend/
    - **POST /refresh**
 
 # Database Schema
-<img width="700" height="807" alt="image" src="https://github.com/user-attachments/assets/d64169cf-528c-436b-91ac-e9246d2c1704" />
-<img width="700" height="724" alt="image" src="https://github.com/user-attachments/assets/cb017558-2f5c-4d18-9af8-8d4bec8b5f15" />
+<img width="900" height="807" alt="image" src="https://github.com/user-attachments/assets/d64169cf-528c-436b-91ac-e9246d2c1704" />
+<img width="900" height="724" alt="image" src="https://github.com/user-attachments/assets/cb017558-2f5c-4d18-9af8-8d4bec8b5f15" />
 
 
      
